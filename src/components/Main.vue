@@ -31,6 +31,7 @@ export default {
       menuItems: {
         home: "home",
         day1: "day1",
+        day2: "day2",
       },
     };
   },
