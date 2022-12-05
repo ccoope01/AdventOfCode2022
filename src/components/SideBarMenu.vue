@@ -15,6 +15,27 @@
       >
         <span class="menu-text">Day 1</span>
       </a>
+      <a
+        class="items-center justify-center mt-3 menu-link"
+        href="#day2"
+        @click="selectMenu(menuItems.day2)"
+      >
+        <span class="menu-text">Day 2</span>
+      </a>
+      <a
+        class="items-center justify-center mt-3 menu-link"
+        href="#day3"
+        @click="selectMenu(menuItems.day3)"
+      >
+        <span class="menu-text">Day 3</span>
+      </a>
+      <a
+        class="items-center justify-center mt-3 menu-link"
+        href="#day4"
+        @click="selectMenu(menuItems.day4)"
+      >
+        <span class="menu-text">Day 4</span>
+      </a>
       <slot></slot>
     </div>
   </div>
@@ -26,6 +47,7 @@ export default {
       menuItems: {
         home: "home",
         day1: "day1",
+        day2: "day2",
       },
     };
   },
