@@ -28,13 +28,6 @@ export default {
   data() {
     return {
       active: false,
-      menuItems: {
-        home: "home",
-        day1: "day1",
-        day2: "day2",
-        day3: "day3",
-        day4: "day4",
-      },
     };
   },
   methods: {

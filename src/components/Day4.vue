@@ -18,7 +18,6 @@ export default {
   components: {},
   data() {
     return {
-      priority: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
       puzzle1Answer: null,
       puzzle2Answer: null,
     };

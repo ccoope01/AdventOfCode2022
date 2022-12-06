@@ -7,6 +7,7 @@ import Day1 from './components/Day1.vue'
 import Day2 from './components/Day2.vue'
 import Day3 from './components/Day3.vue'
 import Day4 from './components/Day4.vue'
+import Day5 from './components/Day5.vue'
 
 const routes = [
     { path: '/', component: Dashboard },
@@ -14,7 +15,8 @@ const routes = [
     { path: '/day1', component: Day1 },
     { path: '/day2', component: Day2 },
     { path: '/day3', component: Day3 },
-    { path: '/day4', component: Day4 }
+    { path: '/day4', component: Day4 },
+    { path: '/day5', component: Day5 }
 ]
 
 const router = VueRouter.createRouter({

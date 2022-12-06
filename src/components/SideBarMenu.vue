@@ -36,6 +36,13 @@
       >
         <span class="menu-text">Day 4</span>
       </a>
+      <a
+        class="items-center justify-center mt-3 menu-link"
+        href="#day5"
+        @click="selectMenu(menuItems.day5)"
+      >
+        <span class="menu-text">Day 5</span>
+      </a>
       <slot></slot>
     </div>
   </div>
@@ -48,6 +55,9 @@ export default {
         home: "home",
         day1: "day1",
         day2: "day2",
+        day3: "day3",
+        day4: "day4",
+        day5: "day5",
       },
     };
   },
